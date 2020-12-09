@@ -14,7 +14,7 @@ import sg.edu.iss.demo.service.UserInterface;
 
 @Controller
 public class UserController {
-		//smthsmthsmth
+		//smthsmthsmtdafdadsfh
 		@Autowired
 		UserInterface uservice;
 		@Autowired
@@ -26,7 +26,7 @@ public class UserController {
 		
 		@RequestMapping(path="/login")
 		public String login(Model model)
-		{
+		{   int m=2;//to test
 			User u=new User();
 			model.addAttribute("user",u);
 			return "loginform";
